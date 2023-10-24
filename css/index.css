@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: quicksand;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+#mainHeader {
+  text-align: center;
+  background-color: bisque;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+#headerIconFork {
+  font-size: 30px;
+}
+
+#headerIconKnife {
+  font-size: 30px;
+}
+
+.content {
+  margin: 10px;
+}
+
+#recipeList {
+  list-style: none;
+}
+
+#recipeList > *{
+  padding: 10px;
+  background-color: bisque ;
+  margin: 10px;
+  max-width: 200px;
+}
